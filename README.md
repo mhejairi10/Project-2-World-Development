@@ -40,7 +40,7 @@ Data sourced from the [Gapminder Foundation](https://www.gapminder.org/about/), 
 | `country` | string | Original | Country name |
 | `year` | int | Original | Calendar year, restricted to 1960-2020 |
 | `population` | float | Original (cleaned) | Total national population; converted from Gapminder shorthand (`k`/`M`/`B`) to a numeric value |
-| `gni` / `gni_per_capita` | float | Original (cleaned) | GNI per capita, Atlas method, constant 2021 USD; converted from Gapminder shorthand to a numeric value |
+| `gni` | float | Original (cleaned) | GNI per capita, Atlas method, constant 2021 USD; converted from Gapminder shorthand to a numeric value |
 | `life_expectancy` | float | Original | Life expectancy at birth, in years |
 | `gni_cagr_pct` | float | Engineered | Compound annual growth rate of GNI per capita, 1960-2020 |
 | `pop_cagr_pct` | float | Engineered | Compound annual growth rate of population, 1960-2020 |
